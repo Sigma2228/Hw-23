@@ -1,0 +1,140 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .container {
+        width: 1170px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .header {
+        border-bottom: 1px solid #ECECEC;
+        margin-bottom: 94px;
+    }
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-logo {
+        padding-top: 24px;
+        padding-bottom: 32px;
+    }
+    .header-link {
+        padding-top: 32px;
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        padding-bottom: 32px;
+    }
+    .header-mail {
+        padding-top: 32px;
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        padding-left: 344px;
+    }
+    .header-tel {
+        padding-top: 32px;
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .header-link:hover {
+        color: dodgerblue;
+    }
+    .header-mail:hover {
+        color: dodgerblue;
+    }
+    .header-tel:hover {
+        color: dodgerblue;
+    }
+    .main .container {
+        display: flex;
+        flex-direction: row;
+        padding-right: 30px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .main-gallery {
+        width: 100%;
+    }
+    .figcaption {
+        padding-left: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .figcaption h1 {
+        padding-bottom: 20px;
+    }
+    .section-button {
+        margin-bottom: 34px;
+    }
+    .section-button .container {
+        display: flex;
+        justify-content: center;
+    }
+    .text-button {
+       width: 125px;
+       line-height: 26px;
+       height: 38px;
+       background: #F5F4FA;
+       margin-left: 8px;
+       border: none;
+       font-weight: 500;
+       border-radius: 3px;
+       font-size: 16px;
+    }
+    .text-button:hover {
+        color: white;
+        background-color: dodgerblue;
+        cursor: pointer;
+    }
+    figure {
+        background: #FFFFFF;
+        border: #ECECEC 1px solid;
+        flex-basis: calc((100% - 60px) /3 );
+    }
+    figure:hover {
+        box-shadow: 1px 4px 6px 0 #00000029;
+        cursor: pointer;
+    }
+    .main-title {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .footer-details {
+        background: #2F303A;
+        height: 252px;
+    }
+    .footer-details .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    }
+    .footer-logo {
+        padding-top: 60px;
+        width: 145px;
+    }
+    address {
+        padding-top: 20px;
+        padding-bottom: 9px;
+        color: gray;
+    }
+    .footer-tel {
+        padding-top: 9px;
+    color: gray;
+    }
+    .footer-mail {
+        text-decoration: none;
+        color: gray;
+    }
+    .main {
+        margin-bottom: 94px;
+    }
+    
