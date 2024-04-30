@@ -97,7 +97,8 @@ color: dodgerblue;
 .text1:first-child::before {
     content: '';
     display: block;
-    background-image: url("../Photo18/Group-1.svg");
+    background-image: url("../Photo18/symbol-defs.svg#icon-Group-1");
+    fill: #2196F3;
     background-repeat: no-repeat;
     background-size: 25%;
     height: 100px;
@@ -109,7 +110,7 @@ color: dodgerblue;
 .text1:nth-child(2)::before {
     content: '';
     display: block;
-    background-image: url("../Photo18/clock-1-1.svg");
+    background-image: url("../Photo18/symbol-defs.svg#icon-clock-1-1");
     background-repeat: no-repeat;
     background-size: 25%;
     height: 100px;
@@ -199,6 +200,7 @@ color: dodgerblue;
     padding-bottom: 30px;
 }
 .who-we-are-item {
+    height: 428px;
     background: #FFFFFF;
     border-radius: 3px;
     box-shadow: 0 4px 3px 0 #00000033;
@@ -207,10 +209,54 @@ color: dodgerblue;
     height: 252px;
     background: #2F303A;
 }
+.svg-wrap {
+    display: flex;
+    justify-content: space-around;
+}
 .footer .container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+.icon {
+    fill: #AFB1B8;
+}
+.icon:hover {
+    background-color: royalblue;
+    fill: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+}
+.clients {
+   height: 400px;
+}
+
+.clients-img-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: calc((100% - 60px) /3 );
+    padding-bottom: 94px;
+    gap: 30px;
+}
+
+.clients-title {
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.clients-icon {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    fill: #AFB1B8;
+    border-radius: 5px;
+}
+.clients-icon:hover {
+    fill: #2196F3;
+    border-color: #2196F3;
+    cursor: pointer;
 }
 .footer img {
     padding-top: 60px;
