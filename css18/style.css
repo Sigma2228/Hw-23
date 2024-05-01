@@ -9,7 +9,7 @@
     padding: 0 15px;
 }
 .header {
-    padding: 24px;
+    padding: 32px;
 }
 .header-title {
     width: 145px;
@@ -31,19 +31,43 @@
     font-weight: 500;
     color: #212121;
 }
+.iconn {
+    fill: #2196F3;
+}
 .header-mail {
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
-    color: #212121;
-    padding-left: 340px;
+    color: #757575;
     padding-right: 50px;
+    padding-left: 10px;
+}
+.icon-smartphone {
+    fill: #757575;
+    width: 10px;
+    height: 12px;
+}
+
+.icon-envelope-hover {
+    padding-left: 340px;
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+}
+
+.icon-envelope-hover:hover {
+     color: dodgerblue;
+}
+
+.icon-smartphone:hover {
+    color: dodgerblue;
 }
 .header-tel {
     text-decoration: none;
     font-size: 14px;
+    color: #757575;
     font-weight: 500;
-    color: #212121;
+    padding-left: 10px;
 }
 .header-link:hover {
 color: dodgerblue;
@@ -222,9 +246,10 @@ color: dodgerblue;
     fill: #AFB1B8;
 }
 .icon:hover {
+    color: white;
     background-color: royalblue;
     fill: #FFFFFF;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
 }
 .clients {
@@ -269,8 +294,12 @@ address {
     font-weight: 400;
     line-height: 1.7;
 }
-.footer .icon {
-    padding: 30px;
+.footer .iconn {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer {
+   height: 252px
 }
 .footer-mail {
     text-decoration: none;
@@ -291,5 +320,31 @@ address {
 }
 .footer-tel:hover {
     color: dodgerblue;
+}
+.footer-wrap {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+.social-wrap {
+    width: 100%;
+    display: flex;
+   justify-content: center;
+}
+.footer-wrapper
+{
+    width: 231px;
+}
+
+.list {
+    display: flex;
+}
+
+.iconnn {
+    fill: #AFB1B8;
 }
 
