@@ -46,13 +46,14 @@
     fill: #757575;
     width: 10px;
     height: 12px;
+    color: #757575;
 }
 
 .icon-envelope-hover {
     padding-left: 340px;
     width: 16px;
     height: 12px;
-    fill: #757575;
+    color: #757575;
 }
 
 .icon-envelope-hover:hover {
@@ -294,13 +295,48 @@ address {
     font-weight: 400;
     line-height: 1.7;
 }
-.footer .iconn {
-    padding-top: 30px;
-    padding-bottom: 30px;
+
+.main-footer {
+    background-color: #2F303A;
 }
-.footer {
-   height: 252px
+
+.main-footer > .container {
+    display: flex;
+    align-items: center;
 }
+
+.footer-social {
+    padding-left: 70px;
+}
+
+.social-wrap-title {
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: 206px;
+}
+
+.iconnn {
+    fill: #FFFFFF;
+    background-color: #AFB1B8;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.footer-info {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    line-height: 24px;
+}
+
+.iconn {
+    padding-bottom: 20px;
+}
+
 .footer-mail {
     text-decoration: none;
     color: gray;
@@ -321,30 +357,5 @@ address {
 .footer-tel:hover {
     color: dodgerblue;
 }
-.footer-wrap {
-  display: flex;
-  justify-content: start;
-  flex-direction: row;
-  align-items: center;
-}
 
-
-
-.social-wrap {
-    width: 100%;
-    display: flex;
-   justify-content: center;
-}
-.footer-wrapper
-{
-    width: 231px;
-}
-
-.list {
-    display: flex;
-}
-
-.iconnn {
-    fill: #AFB1B8;
-}
 
